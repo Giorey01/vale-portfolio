@@ -2,10 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Overused Grotesk";
+  src: url("/fonts/OverusedGrotesk-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Overused Grotesk";
+  src: url("/fonts/OverusedGrotesk-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #807676;
+  --background: #edeae9;
+  --foreground: #121516;
 }
 
 @media (prefers-color-scheme: dark) {

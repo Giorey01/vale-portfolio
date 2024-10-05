@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        grotesk: ["Overused Grotesk", "sans-serif"], // Definisci il nome della famiglia
+      },
     },
   },
   plugins: [],
