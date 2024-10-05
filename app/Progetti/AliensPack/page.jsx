@@ -5,7 +5,12 @@ import Image from "next/image";
 function AliensPack() {
   return (
     <div className="flex mt-10 justify-center h-screen">
-      <Image src={immagine} width="1600" objectFit={"contain"}></Image>
+      <Image
+        src={immagine}
+        alt="alien"
+        width="1600"
+        objectFit={"contain"}
+      ></Image>
     </div>
   );
 }
