@@ -49,7 +49,7 @@ const Navbar = () => {
           onClick={() => setIsNavOpen(false)}
         >
           <Link
-            href="https://www.instagram.com/_jojifilm_/"
+            href="https://www.instagram.com/_valentinasoldano_/"
             rel="noopener noreferrer"
             target="_blank"
           >
