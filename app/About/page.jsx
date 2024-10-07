@@ -10,6 +10,7 @@ function About() {
             src="https://d321io5nxf2wuu.cloudfront.net/ValePortfolio/About/about-main.webp"
             width={450}
             height={450}
+            className="hover:rotate-2 hover:scale-[1.025] duration-300"
           />
         </div>
         <div className="max-w-96 ">
@@ -29,7 +30,8 @@ function About() {
           src="https://d321io5nxf2wuu.cloudfront.net/ValePortfolio/About/about-diario.png"
           width={300}
           height={300}
-          className="absolute bottom-0 right-0 translate-y-10"
+          className="absolute bottom-0 right-0 translate-y-10 hover:rotate-3 hover:scale-105 duration-300
+        "
         />
       </div>
     </>
