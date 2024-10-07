@@ -22,7 +22,7 @@ export default function Home() {
           alt="statue"
         />
       </Link>
-      <Link href="/Progetti/AliensPack">
+      <Link href="/Progetti/CouldntBeBetter">
         <Photocard
           src="https://d321io5nxf2wuu.cloudfront.net/ValePortfolio/Home/itcouldntbebetter.webp"
           alt="statue"
