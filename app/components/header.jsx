@@ -12,8 +12,12 @@ const Navbar = () => {
       {/* Navbar per versioni desktop e mobile */}
       <div className="flex justify-between m-5 mx-10 items-center">
         <div>
-          <p className="text-3xl font-bold">Valentina Soldano</p>
-          <p>Collage Illust. & Editorial Design</p>
+          <h1 className="text-xl md:text-3xl font-bold duration-200">
+            Valentina Soldano
+          </h1>
+          <p className="text-sm md:text-lg">
+            Collage Illust. & Editorial Design
+          </p>
         </div>
         <div className="hidden md:flex gap-8 text-2xl">
           <Link
