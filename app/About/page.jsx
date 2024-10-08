@@ -3,7 +3,7 @@ import Image from "next/image";
 function About() {
   return (
     <>
-      <div className="flex gap-16 mx-auto items-center p-16 relative max-w-5xl">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-16 mx-auto items-center md:p-16 relative md:max-w-5xl">
         <div>
           <h1 className="text-6xl mb-7 animate-typing overflow-hidden whitespace-nowrap">
             About me
@@ -20,7 +20,7 @@ function About() {
             I’m Valentina, Gabbiani Lover and Editorial Designer from Argentina,
             currently established in Rome.
           </p>
-          <p className="text-2xl">
+          <p className="text-2xl text-pretty">
             My first job was at the age of 12, in the editorial field, when I
             decided to create a newspaper called “El Barrio”, along with my best
             friend to publish news, interviews and absurd stories from our
@@ -28,13 +28,14 @@ function About() {
             :) ↓
           </p>
         </div>
-        <Image
-          src="https://d321io5nxf2wuu.cloudfront.net/ValePortfolio/About/about-diario.png"
-          width={300}
-          height={300}
-          className="absolute bottom-0 right-0 translate-y-10 hover:rotate-3 hover:scale-105 duration-300
-        "
-        />
+        <div className="md:absolute md:w-56 lg:w-80 md:translate-x-[-4rem] lg:translate-x-0 md:right-0 md:translate-y-[22rem] lg:translate-y-80">
+          <Image
+            src="https://d321io5nxf2wuu.cloudfront.net/ValePortfolio/About/about-diario.png"
+            width={300}
+            height={300}
+            className="hover:rotate-3 hover:scale-105 duration-300 object-contain"
+          />
+        </div>
       </div>
     </>
   );

@@ -14,14 +14,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="relative">
       <head>
         <link rel="icon" href="./favicon.ico" />
       </head>
-      <body className="font-grotesk">
+      <body className="font-grotesk ">
         <Header />
-        <div className="m-5">{children}</div>
-        <Footer />
+        <div className="m-5 mb-24 md:mb-36">{children}</div>
+        <div className="absolute bottom-0 w-full ">
+          <Footer />
+        </div>
       </body>
     </html>
   );

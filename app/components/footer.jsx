@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className="flex justify-between p-5 pt-10">
+    <div className="flex flex-col text-center gap-1 md:gap-0 md:flex-row justify-between p-5 pt-10">
       <div>
         <Link href="mailto:valentinasoldano.vs@gmail.com" className="mr-5">
           Mail
