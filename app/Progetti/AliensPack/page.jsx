@@ -5,7 +5,7 @@ import TopPage from "@/app/components/top-page";
 function AliensPack() {
   return (
     <>
-      <div>
+      <div className="animate-scale-up-ver-top">
         <TopPage
           titolo="Aliens Pack"
           sottotitolo="Custom product design"
