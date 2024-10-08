@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center m-7">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 animate-scale-up-ver-top gap-10 place-items-center m-7">
       <Link href="/Progetti/AliensPack">
         <Photocard
           src="https://d321io5nxf2wuu.cloudfront.net/ValePortfolio/Home/riflessi.jpg"

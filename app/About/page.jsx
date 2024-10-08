@@ -5,7 +5,9 @@ function About() {
     <>
       <div className="flex gap-16 mx-auto items-center p-16 relative max-w-5xl">
         <div>
-          <h1 className="text-6xl mb-7">About me</h1>
+          <h1 className="text-6xl mb-7 animate-typing overflow-hidden whitespace-nowrap">
+            About me
+          </h1>
           <Image
             src="https://d321io5nxf2wuu.cloudfront.net/ValePortfolio/About/about-main.webp"
             width={450}
