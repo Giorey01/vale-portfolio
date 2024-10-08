@@ -8,7 +8,7 @@ interface TopPageProps {
 
 function TopPage({ titolo, sottotitolo, descrizione }: TopPageProps) {
   return (
-    <div className="mx-11 md:mx-40 mt-16 md:mt-24 mb-10">
+    <div className="mx-4 md:mx-40 mt-16 md:mt-24 mb-10">
       <h1 className="text-4xl md:text-5xl font-bold max-w-max animate-typing overflow-hidden whitespace-nowrap">
         {titolo}
       </h1>

@@ -13,7 +13,7 @@ function AliensPack() {
                     for T-Shirts, Mugs 
                     and Stickers"
         />
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mx:11 mx-40 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  mx-40 mt-10">
           {/* Tazza */}
           <div className="flex justify-center">
             <Image
