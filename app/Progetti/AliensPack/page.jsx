@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import TopPage from "@/app/components/top-page";
-import ProjectImage from "@/app/components/project-image";
+//import ProjectImage from "@/app/components/project-image";
 function AliensPack() {
   return (
     <>
